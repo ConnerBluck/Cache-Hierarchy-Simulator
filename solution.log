@@ -1,0 +1,1200 @@
+TRACE: gcc.trace
+CONF: basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      780448
+L1 Data Load Misses                 511959
+L1 Data Store Misses                268489
+L1 Data Evictions                   780384
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                371144
+Bytes transferred from Main Memory  49948672
+Bytes transferred to Main Memory    23753216
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.07804480
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 7.68268800
+
+
+
+TRACE: mcf.trace
+CONF: basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      440667
+L1 Data Load Misses                 262512
+L1 Data Store Misses                178155
+L1 Data Evictions                   440603
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                225776
+Bytes transferred from Main Memory  28202688
+Bytes transferred to Main Memory    14449664
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.04406670
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 5.64400200
+
+
+
+TRACE: perlbench.trace
+CONF: basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      1040939
+L1 Data Load Misses                 876104
+L1 Data Store Misses                164835
+L1 Data Evictions                   1040875
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                379125
+Bytes transferred from Main Memory  66620096
+Bytes transferred to Main Memory    24264000
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.10409390
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 9.24563400
+
+
+
+TRACE: x264.trace
+CONF: basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      642833
+L1 Data Load Misses                 306664
+L1 Data Store Misses                336169
+L1 Data Evictions                   642769
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                394092
+Bytes transferred from Main Memory  41141312
+Bytes transferred to Main Memory    25221888
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.06428330
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 6.85699800
+
+
+
+TRACE: gcc.trace
+CONF: basic_fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      892050
+L1 Data Load Misses                 593449
+L1 Data Store Misses                298601
+L1 Data Evictions                   891986
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                443658
+Bytes transferred from Main Memory  57091200
+Bytes transferred to Main Memory    28394112
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.08920500
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 8.35230000
+
+
+
+TRACE: mcf.trace
+CONF: basic_fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      630485
+L1 Data Load Misses                 359606
+L1 Data Store Misses                270879
+L1 Data Evictions                   630421
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                350881
+Bytes transferred from Main Memory  40351040
+Bytes transferred to Main Memory    22456384
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.06304850
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 6.78291000
+
+
+
+TRACE: perlbench.trace
+CONF: basic_fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      1185738
+L1 Data Load Misses                 985762
+L1 Data Store Misses                199976
+L1 Data Evictions                   1185674
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                472290
+Bytes transferred from Main Memory  75887232
+Bytes transferred to Main Memory    30226560
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.11857380
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 10.11442800
+
+
+
+TRACE: x264.trace
+CONF: basic_fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      717581
+L1 Data Load Misses                 368557
+L1 Data Store Misses                349024
+L1 Data Evictions                   717517
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                431977
+Bytes transferred from Main Memory  45925184
+Bytes transferred to Main Memory    27646528
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.07175810
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 7.30548600
+
+
+
+TRACE: gcc.trace
+CONF: basic_lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      1517728
+L1 Data Load Misses                 1113959
+L1 Data Store Misses                403769
+L1 Data Evictions                   1517664
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                613855
+Bytes transferred from Main Memory  97134592
+Bytes transferred to Main Memory    39286720
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.15177280
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 12.10636800
+
+
+
+TRACE: mcf.trace
+CONF: basic_lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      1289067
+L1 Data Load Misses                 932477
+L1 Data Store Misses                356590
+L1 Data Evictions                   1289003
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                548755
+Bytes transferred from Main Memory  82500288
+Bytes transferred to Main Memory    35120320
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.12890670
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 10.73440200
+
+
+
+TRACE: perlbench.trace
+CONF: basic_lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      2191587
+L1 Data Load Misses                 1825757
+L1 Data Store Misses                365830
+L1 Data Evictions                   2191523
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                791760
+Bytes transferred from Main Memory  140261568
+Bytes transferred to Main Memory    50672640
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.21915870
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 16.14952200
+
+
+
+TRACE: x264.trace
+CONF: basic_lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      1501828
+L1 Data Load Misses                 1008999
+L1 Data Store Misses                492829
+L1 Data Evictions                   1501764
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                610269
+Bytes transferred from Main Memory  96116992
+Bytes transferred to Main Memory    39057216
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.15018280
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 12.01096800
+
+
+
+TRACE: gcc.trace
+CONF: big_basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      111206
+L1 Data Load Misses                 55910
+L1 Data Store Misses                55296
+L1 Data Evictions                   110694
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                65836
+Bytes transferred from Main Memory  7117184
+Bytes transferred to Main Memory    4213504
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01112060
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 4.66723600
+
+
+
+TRACE: mcf.trace
+CONF: big_basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      99432
+L1 Data Load Misses                 15899
+L1 Data Store Misses                83533
+L1 Data Evictions                   98920
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                93702
+Bytes transferred from Main Memory  6363648
+Bytes transferred to Main Memory    5996928
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.00994320
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 4.59659200
+
+
+
+TRACE: perlbench.trace
+CONF: big_basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      169033
+L1 Data Load Misses                 111688
+L1 Data Store Misses                57345
+L1 Data Evictions                   168521
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                91176
+Bytes transferred from Main Memory  10818112
+Bytes transferred to Main Memory    5835264
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01690330
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 5.01419800
+
+
+
+TRACE: x264.trace
+CONF: big_basic.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          no; V:0
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      224753
+L1 Data Load Misses                 26816
+L1 Data Store Misses                197937
+L1 Data Evictions                   224241
+Victim Cache Accesses               0
+Victim Cache Misses                 0
+Victim Cache Hits                   0
+Number of writebacks                203286
+Bytes transferred from Main Memory  14384192
+Bytes transferred to Main Memory    13010304
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02247530
+Victim Cache Miss Rate              0.00000000
+Average Access Time                 5.34851800
+
+
+
+TRACE: gcc.trace
+CONF: big_default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      111206
+L1 Data Load Misses                 55910
+L1 Data Store Misses                55296
+L1 Data Evictions                   110694
+Victim Cache Accesses               111206
+Victim Cache Misses                 109843
+Victim Cache Hits                   1363
+Number of writebacks                65375
+Bytes transferred from Main Memory  7029952
+Bytes transferred to Main Memory    4184000
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01112060
+Victim Cache Miss Rate              0.98774347
+Average Access Time                 4.65905800
+
+
+
+TRACE: mcf.trace
+CONF: big_default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      99432
+L1 Data Load Misses                 15899
+L1 Data Store Misses                83533
+L1 Data Evictions                   98920
+Victim Cache Accesses               99432
+Victim Cache Misses                 99425
+Victim Cache Hits                   7
+Number of writebacks                93693
+Bytes transferred from Main Memory  6363200
+Bytes transferred to Main Memory    5996352
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.00994320
+Victim Cache Miss Rate              0.99992960
+Average Access Time                 4.59655000
+
+
+
+TRACE: perlbench.trace
+CONF: big_default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      169033
+L1 Data Load Misses                 111688
+L1 Data Store Misses                57345
+L1 Data Evictions                   168521
+Victim Cache Accesses               169033
+Victim Cache Misses                 165187
+Victim Cache Hits                   3846
+Number of writebacks                89647
+Bytes transferred from Main Memory  10571968
+Bytes transferred to Main Memory    5737408
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01690330
+Victim Cache Miss Rate              0.97724705
+Average Access Time                 4.99112200
+
+
+
+TRACE: x264.trace
+CONF: big_default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      224753
+L1 Data Load Misses                 26816
+L1 Data Store Misses                197937
+L1 Data Evictions                   224241
+Victim Cache Accesses               224753
+Victim Cache Misses                 220911
+Victim Cache Hits                   3842
+Number of writebacks                200921
+Bytes transferred from Main Memory  14138304
+Bytes transferred to Main Memory    12858944
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02247530
+Victim Cache Miss Rate              0.98290568
+Average Access Time                 5.32546600
+
+
+
+TRACE: gcc.trace
+CONF: default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      780448
+L1 Data Load Misses                 511959
+L1 Data Store Misses                268489
+L1 Data Evictions                   780384
+Victim Cache Accesses               780448
+Victim Cache Misses                 736507
+Victim Cache Hits                   43941
+Number of writebacks                353613
+Bytes transferred from Main Memory  47136448
+Bytes transferred to Main Memory    22631232
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.07804480
+Victim Cache Miss Rate              0.94369772
+Average Access Time                 7.41904200
+
+
+
+TRACE: mcf.trace
+CONF: default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      440667
+L1 Data Load Misses                 262512
+L1 Data Store Misses                178155
+L1 Data Evictions                   440603
+Victim Cache Accesses               440667
+Victim Cache Misses                 316235
+Victim Cache Hits                   124432
+Number of writebacks                190907
+Bytes transferred from Main Memory  20239040
+Bytes transferred to Main Memory    12218048
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.04406670
+Victim Cache Miss Rate              0.71762805
+Average Access Time                 4.89741000
+
+
+
+TRACE: perlbench.trace
+CONF: default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      1040939
+L1 Data Load Misses                 876104
+L1 Data Store Misses                164835
+L1 Data Evictions                   1040875
+Victim Cache Accesses               1040939
+Victim Cache Misses                 988588
+Victim Cache Hits                   52351
+Number of writebacks                361034
+Bytes transferred from Main Memory  63269632
+Bytes transferred to Main Memory    23106176
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.10409390
+Victim Cache Miss Rate              0.94970791
+Average Access Time                 8.93152800
+
+
+
+TRACE: x264.trace
+CONF: default.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=12, B=6, S=3)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      642833
+L1 Data Load Misses                 306664
+L1 Data Store Misses                336169
+L1 Data Evictions                   642769
+Victim Cache Accesses               642833
+Victim Cache Misses                 589123
+Victim Cache Hits                   53710
+Number of writebacks                378994
+Bytes transferred from Main Memory  37703872
+Bytes transferred to Main Memory    24255616
+L1 Data Hit Time                    3.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.06428330
+Victim Cache Miss Rate              0.91644797
+Average Access Time                 6.53473800
+
+
+
+TRACE: gcc.trace
+CONF: direct_mapped.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=0)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      249404
+L1 Data Load Misses                 175518
+L1 Data Store Misses                73886
+L1 Data Evictions                   248892
+Victim Cache Accesses               249404
+Victim Cache Misses                 213295
+Victim Cache Hits                   36109
+Number of writebacks                94745
+Bytes transferred from Main Memory  13650880
+Bytes transferred to Main Memory    6063680
+L1 Data Hit Time                    2.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02494040
+Victim Cache Miss Rate              0.85521884
+Average Access Time                 3.27977000
+
+
+
+TRACE: mcf.trace
+CONF: direct_mapped.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=0)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      322662
+L1 Data Load Misses                 210727
+L1 Data Store Misses                111935
+L1 Data Evictions                   322150
+Victim Cache Accesses               322662
+Victim Cache Misses                 230053
+Victim Cache Hits                   92609
+Number of writebacks                121965
+Bytes transferred from Main Memory  14723392
+Bytes transferred to Main Memory    7805760
+L1 Data Hit Time                    2.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.03226620
+Victim Cache Miss Rate              0.71298449
+Average Access Time                 3.38031800
+
+
+
+TRACE: perlbench.trace
+CONF: direct_mapped.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=0)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      404067
+L1 Data Load Misses                 314250
+L1 Data Store Misses                89817
+L1 Data Evictions                   403555
+Victim Cache Accesses               404067
+Victim Cache Misses                 344312
+Victim Cache Hits                   59755
+Number of writebacks                149056
+Bytes transferred from Main Memory  22035968
+Bytes transferred to Main Memory    9539584
+L1 Data Hit Time                    2.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.04040670
+Victim Cache Miss Rate              0.85211611
+Average Access Time                 4.06587200
+
+
+
+TRACE: x264.trace
+CONF: direct_mapped.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=0)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      596016
+L1 Data Load Misses                 314846
+L1 Data Store Misses                281170
+L1 Data Evictions                   595504
+Victim Cache Accesses               596016
+Victim Cache Misses                 363585
+Victim Cache Hits                   232431
+Number of writebacks                276106
+Bytes transferred from Main Memory  23269440
+Bytes transferred to Main Memory    17670784
+L1 Data Hit Time                    2.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.05960160
+Victim Cache Miss Rate              0.61002557
+Average Access Time                 4.18151000
+
+
+
+TRACE: gcc.trace
+CONF: fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      137372
+L1 Data Load Misses                 78056
+L1 Data Store Misses                59316
+L1 Data Evictions                   136860
+Victim Cache Accesses               137372
+Victim Cache Misses                 130069
+Victim Cache Hits                   7303
+Number of writebacks                72801
+Bytes transferred from Main Memory  8324416
+Bytes transferred to Main Memory    4659264
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01373720
+Victim Cache Miss Rate              0.94683778
+Average Access Time                 4.78041400
+
+
+
+TRACE: mcf.trace
+CONF: fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      110578
+L1 Data Load Misses                 23223
+L1 Data Store Misses                87355
+L1 Data Evictions                   110066
+Victim Cache Accesses               110578
+Victim Cache Misses                 102937
+Victim Cache Hits                   7641
+Number of writebacks                95430
+Bytes transferred from Main Memory  6587968
+Bytes transferred to Main Memory    6107520
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01105780
+Victim Cache Miss Rate              0.93089946
+Average Access Time                 4.61762200
+
+
+
+TRACE: perlbench.trace
+CONF: fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      212836
+L1 Data Load Misses                 149209
+L1 Data Store Misses                63627
+L1 Data Evictions                   212324
+Victim Cache Accesses               212836
+Victim Cache Misses                 200164
+Victim Cache Hits                   12672
+Number of writebacks                104840
+Bytes transferred from Main Memory  12810496
+Bytes transferred to Main Memory    6709760
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02128360
+Victim Cache Miss Rate              0.94046120
+Average Access Time                 5.20098400
+
+
+
+TRACE: x264.trace
+CONF: fifo.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    FIFO
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      244492
+L1 Data Load Misses                 39651
+L1 Data Store Misses                204841
+L1 Data Evictions                   243980
+Victim Cache Accesses               244492
+Victim Cache Misses                 237387
+Victim Cache Hits                   7105
+Number of writebacks                210437
+Bytes transferred from Main Memory  15192768
+Bytes transferred to Main Memory    13467968
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02444920
+Victim Cache Miss Rate              0.97093974
+Average Access Time                 5.42432200
+
+
+
+TRACE: gcc.trace
+CONF: fully_assoc.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=9)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      101038
+L1 Data Load Misses                 47303
+L1 Data Store Misses                53735
+L1 Data Evictions                   100526
+Victim Cache Accesses               101038
+Victim Cache Misses                 100595
+Victim Cache Hits                   443
+Number of writebacks                62753
+Bytes transferred from Main Memory  6438080
+Bytes transferred to Main Memory    4016192
+L1 Data Hit Time                    6.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01010380
+Victim Cache Miss Rate              0.99561551
+Average Access Time                 6.60357000
+
+
+
+TRACE: mcf.trace
+CONF: fully_assoc.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=9)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      99372
+L1 Data Load Misses                 15878
+L1 Data Store Misses                83494
+L1 Data Evictions                   98860
+Victim Cache Accesses               99372
+Victim Cache Misses                 99372
+Victim Cache Hits                   0
+Number of writebacks                93659
+Bytes transferred from Main Memory  6359808
+Bytes transferred to Main Memory    5994176
+L1 Data Hit Time                    6.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.00993720
+Victim Cache Miss Rate              1.00000000
+Average Access Time                 6.59623200
+
+
+
+TRACE: perlbench.trace
+CONF: fully_assoc.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=9)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      149433
+L1 Data Load Misses                 94331
+L1 Data Store Misses                55102
+L1 Data Evictions                   148921
+Victim Cache Accesses               149433
+Victim Cache Misses                 148452
+Victim Cache Hits                   981
+Number of writebacks                84003
+Bytes transferred from Main Memory  9500928
+Bytes transferred to Main Memory    5376192
+L1 Data Hit Time                    6.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01494330
+Victim Cache Miss Rate              0.99343518
+Average Access Time                 6.89071200
+
+
+
+TRACE: x264.trace
+CONF: fully_assoc.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=9)
+Replacement Policy:    LRU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      202043
+L1 Data Load Misses                 14068
+L1 Data Store Misses                187975
+L1 Data Evictions                   201531
+Victim Cache Accesses               202043
+Victim Cache Misses                 201982
+Victim Cache Hits                   61
+Number of writebacks                188977
+Bytes transferred from Main Memory  12926848
+Bytes transferred to Main Memory    12094528
+L1 Data Hit Time                    6.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02020430
+Victim Cache Miss Rate              0.99969808
+Average Access Time                 7.21189200
+
+
+
+TRACE: gcc.trace
+CONF: lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6279033
+L1 Data Store Accesses              3720967
+L1 Data Misses                      234394
+L1 Data Load Misses                 162025
+L1 Data Store Misses                72369
+L1 Data Evictions                   233882
+Victim Cache Accesses               234394
+Victim Cache Misses                 221685
+Victim Cache Hits                   12709
+Number of writebacks                94425
+Bytes transferred from Main Memory  14187840
+Bytes transferred to Main Memory    6043200
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.02343940
+Victim Cache Miss Rate              0.94577933
+Average Access Time                 5.33011000
+
+
+
+TRACE: mcf.trace
+CONF: lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               5885584
+L1 Data Store Accesses              4114416
+L1 Data Misses                      131318
+L1 Data Load Misses                 14081
+L1 Data Store Misses                117237
+L1 Data Evictions                   130806
+Victim Cache Accesses               131318
+Victim Cache Misses                 130832
+Victim Cache Hits                   486
+Number of writebacks                127413
+Bytes transferred from Main Memory  8373248
+Bytes transferred to Main Memory    8154432
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.01313180
+Victim Cache Miss Rate              0.99629906
+Average Access Time                 4.78499200
+
+
+
+TRACE: perlbench.trace
+CONF: lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6341580
+L1 Data Store Accesses              3658420
+L1 Data Misses                      479459
+L1 Data Load Misses                 398808
+L1 Data Store Misses                80651
+L1 Data Evictions                   478947
+Victim Cache Accesses               479459
+Victim Cache Misses                 459261
+Victim Cache Hits                   20198
+Number of writebacks                157571
+Bytes transferred from Main Memory  29392704
+Bytes transferred to Main Memory    10084544
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.04794590
+Victim Cache Miss Rate              0.95787335
+Average Access Time                 6.75556600
+
+
+
+TRACE: x264.trace
+CONF: lfu.conf
+SIMULATION CONFIGURATION
+L1 Data Cache:         (C=15, B=6, S=3)
+Replacement Policy:    LFU
+Victim Cache:          yes; V:4
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+L1 Data Accesses                    10000000
+L1 Data Load Accesses               6128778
+L1 Data Store Accesses              3871222
+L1 Data Misses                      474952
+L1 Data Load Misses                 199350
+L1 Data Store Misses                275602
+L1 Data Evictions                   474440
+Victim Cache Accesses               474952
+Victim Cache Misses                 431052
+Victim Cache Hits                   43900
+Number of writebacks                304617
+Bytes transferred from Main Memory  27587328
+Bytes transferred to Main Memory    19495488
+L1 Data Hit Time                    4.00000000
+L1 Data Miss Penalty                60.00000000
+L1 Data Miss Rate                   0.04749520
+Victim Cache Miss Rate              0.90756961
+Average Access Time                 6.58631200
+
+
+
